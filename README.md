@@ -2,18 +2,21 @@
 
 # bachelor
 
-These scripts were made during the process of writing my BA project in Linguistics at Aarhus University, Denmark. 
-My investigation aims at finding out what acoustic measures of voice quality best predict the perceptual
-experience of vocal affect.
+This is a collection of the data-preprocessing and data-analysis scripts made in relation to my BA thesis in Linguistics at Aarhus University. 
+The project investigates which acoustic measures of voice quality best predict the perceptual
+experience of vocal affect. 
 
-I collected 23 recordings from real people, reading a text in four different phonation types: modal (normal), whispery, creaky and harsh. 
-Using the COVAREP repository for MatLab I extracted a bunch of acoustic features from those audio files. Those features can be seen
-in the file feature_data.R (its quite a large file) and in the formant_data.R
+Here is a brief guide as how to navigate the repository and its contents.
 
-Furthermore, using parts of those recordings, I did a perceptual survey in which 56 subjects were asked to rate 15 samples of the collected recordings
-on a 7-pointed Likert scale ranging from "Not [emotion]" to "Very [emotion]".
+The project BA_analysis.RProj contains the following relevant files for the acoustic feature analysis:
+feature_analysis.R which contains the necessary code to be able to open the feature_data.R file, since this is to large to open as it is.
+median_IQR.R contains scripts to reduce the feature dataset by calculating median and interquartile range.
+multinom_regression_feature.R contains the full model-making
 
-All of my data along with the analysis and model can be found in this repository, for anyone to double-check my steps.
+
+The file cleaning_survey_data.R shows all the steps taken to clean the survey data. Both the original survey dataset and the cleaned version are included in the repository. 
+The file survey_analysis.R contains the scripts used to analyse and visualize the clean survey data.
+
 
 For inquiries contact me at 201805499@post.au.dk
 
