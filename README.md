@@ -17,7 +17,7 @@ For the perceptual survey data, take the following steps IN ORDER:
 2. Run the code in file survey_analysis.R
 
 
-All datasets necesarry to run the code in all R files are included in this repository.
+All datasets necessary to run the code in all R files are included in this repository.
 
 For questions, comments etc., contact me at 201805499@post.au.dk
 
